@@ -16,7 +16,7 @@ namespace HomeWorkExercise7
             string allCharactersByReadToEnd = String.Empty;
             int rowCount = 0;
             string[] arrayOfRows;
-            using (var sr = new StreamReader("Info.txt")) //C:\Users\Алексей\source\repos\HomeWork\TEST\bin\Debug\Info.txt  Текстовый файл загрузил на гидхаб
+            using (var sr = new StreamReader("Info.txt")) //C:\Users\Алексей\source\repos\HomeWork\TEST\bin\Debug\Info.txt  Текстовый файл загрузил на гидхаб в ReadME
             {
                 allCharactersByReadToEnd = sr.ReadToEnd();
                 arrayOfRows = allCharactersByReadToEnd.Split('/', '@', '<', '>', '#', '"', '?', '-', '+', ':', '!', '^', '%', '*', ' ', ',', '.', '\n', '\r', '(', ')', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0');
